@@ -162,16 +162,9 @@
 	foreach ($ndc_dup_array as $key => $value) {
 		if ($value > 1) {
 			$only_duplicates[$key] = $value;
-			//$final_string .= ($key . "\n");
 		}
 	}
 
-	//$final_string = "";
-
-
-
-	//$file_name = "/home/bk/Documents/DrugPackaging/OutputFiles/DuplicateNDCs.txt";
-	//file_put_contents($file_name, $final_string);
 
 
 	$final_string = "";
